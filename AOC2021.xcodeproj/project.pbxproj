@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C04C21AA2891868800378159 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21A92891868800378159 /* Puzzle.swift */; };
+		C04C21AC2891868800378159 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21AB2891868800378159 /* main.swift */; };
+		C04C21AE2891868800378159 /* InputFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21AD2891868800378159 /* InputFileReader.swift */; };
+		C04C21B12891868800378159 /* Puzzle01.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21B02891868800378159 /* Puzzle01.swift */; };
+		C04C21B32891868800378159 /* Input01 in Resources */ = {isa = PBXBuildFile; fileRef = C04C21B22891868800378159 /* Input01 */; };
+		C04C21B62891868800378159 /* Puzzle02.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21B52891868800378159 /* Puzzle02.swift */; };
+		C04C21B82891868800378159 /* Input02 in Resources */ = {isa = PBXBuildFile; fileRef = C04C21B72891868800378159 /* Input02 */; };
+		C04C21BB2891868800378159 /* Puzzle03.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21BA2891868800378159 /* Puzzle03.swift */; };
+		C04C21BD2891868800378159 /* Input03 in Resources */ = {isa = PBXBuildFile; fileRef = C04C21BC2891868800378159 /* Input03 */; };
+		C04C21C02891868800378159 /* Puzzle04.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21BF2891868800378159 /* Puzzle04.swift */; };
+		C04C21C22891868800378159 /* Input04 in Resources */ = {isa = PBXBuildFile; fileRef = C04C21C12891868800378159 /* Input04 */; };
+		C04C21C52891868800378159 /* Puzzle05.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21C42891868800378159 /* Puzzle05.swift */; };
+		C04C21C72891868800378159 /* Input05 in Resources */ = {isa = PBXBuildFile; fileRef = C04C21C62891868800378159 /* Input05 */; };
+		C04C21CA2891868800378159 /* Puzzle06.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21C92891868800378159 /* Puzzle06.swift */; };
+		C04C21CC2891868800378159 /* Input06 in Resources */ = {isa = PBXBuildFile; fileRef = C04C21CB2891868800378159 /* Input06 */; };
+		C04C21CF2891868800378159 /* Puzzle07.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21CE2891868800378159 /* Puzzle07.swift */; };
+		C04C21D12891868800378159 /* Input07 in Resources */ = {isa = PBXBuildFile; fileRef = C04C21D02891868800378159 /* Input07 */; };
+		C04C21D42891868800378159 /* Puzzle08.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21D32891868800378159 /* Puzzle08.swift */; };
+		C04C21D62891868800378159 /* Input08 in Resources */ = {isa = PBXBuildFile; fileRef = C04C21D52891868800378159 /* Input08 */; };
+		C04C21D92891868800378159 /* Puzzle09.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21D82891868800378159 /* Puzzle09.swift */; };
+		C04C21DB2891868800378159 /* Input09 in Resources */ = {isa = PBXBuildFile; fileRef = C04C21DA2891868800378159 /* Input09 */; };
+		C04C21DE2891868800378159 /* Puzzle10.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21DD2891868800378159 /* Puzzle10.swift */; };
+		C04C21E02891868800378159 /* Input10 in Resources */ = {isa = PBXBuildFile; fileRef = C04C21DF2891868800378159 /* Input10 */; };
+		C04C21E32891868800378159 /* Puzzle11.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21E22891868800378159 /* Puzzle11.swift */; };
+		C04C21E52891868800378159 /* Input11 in Resources */ = {isa = PBXBuildFile; fileRef = C04C21E42891868800378159 /* Input11 */; };
+		C04C21E82891868800378159 /* Puzzle12.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21E72891868800378159 /* Puzzle12.swift */; };
+		C04C21EA2891868800378159 /* Input12 in Resources */ = {isa = PBXBuildFile; fileRef = C04C21E92891868800378159 /* Input12 */; };
+		C04C21ED2891868800378159 /* Puzzle13.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21EC2891868800378159 /* Puzzle13.swift */; };
+		C04C21EF2891868800378159 /* Input13 in Resources */ = {isa = PBXBuildFile; fileRef = C04C21EE2891868800378159 /* Input13 */; };
+		C04C21F22891868800378159 /* Puzzle14.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21F12891868800378159 /* Puzzle14.swift */; };
+		C04C21F42891868800378159 /* Input14 in Resources */ = {isa = PBXBuildFile; fileRef = C04C21F32891868800378159 /* Input14 */; };
+		C04C21F72891868800378159 /* Puzzle15.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21F62891868800378159 /* Puzzle15.swift */; };
+		C04C21F92891868800378159 /* Input15 in Resources */ = {isa = PBXBuildFile; fileRef = C04C21F82891868800378159 /* Input15 */; };
+		C04C21FC2891868800378159 /* Puzzle16.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C21FB2891868800378159 /* Puzzle16.swift */; };
+		C04C21FE2891868800378159 /* Input16 in Resources */ = {isa = PBXBuildFile; fileRef = C04C21FD2891868800378159 /* Input16 */; };
+		C04C22012891868800378159 /* Puzzle17.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C22002891868800378159 /* Puzzle17.swift */; };
+		C04C22032891868800378159 /* Input17 in Resources */ = {isa = PBXBuildFile; fileRef = C04C22022891868800378159 /* Input17 */; };
+		C04C22062891868800378159 /* Puzzle18.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C22052891868800378159 /* Puzzle18.swift */; };
+		C04C22082891868800378159 /* Input18 in Resources */ = {isa = PBXBuildFile; fileRef = C04C22072891868800378159 /* Input18 */; };
+		C04C220B2891868800378159 /* Puzzle19.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C220A2891868800378159 /* Puzzle19.swift */; };
+		C04C220D2891868800378159 /* Input19 in Resources */ = {isa = PBXBuildFile; fileRef = C04C220C2891868800378159 /* Input19 */; };
+		C04C22102891868800378159 /* Puzzle20.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C220F2891868800378159 /* Puzzle20.swift */; };
+		C04C22122891868800378159 /* Input20 in Resources */ = {isa = PBXBuildFile; fileRef = C04C22112891868800378159 /* Input20 */; };
+		C04C22152891868800378159 /* Puzzle21.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C22142891868800378159 /* Puzzle21.swift */; };
+		C04C22172891868800378159 /* Input21 in Resources */ = {isa = PBXBuildFile; fileRef = C04C22162891868800378159 /* Input21 */; };
+		C04C221A2891868800378159 /* Puzzle22.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C22192891868800378159 /* Puzzle22.swift */; };
+		C04C221C2891868800378159 /* Input22 in Resources */ = {isa = PBXBuildFile; fileRef = C04C221B2891868800378159 /* Input22 */; };
+		C04C221F2891868800378159 /* Puzzle23.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C221E2891868800378159 /* Puzzle23.swift */; };
+		C04C22212891868800378159 /* Input23 in Resources */ = {isa = PBXBuildFile; fileRef = C04C22202891868800378159 /* Input23 */; };
+		C04C22242891868800378159 /* Puzzle24.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C22232891868800378159 /* Puzzle24.swift */; };
+		C04C22262891868800378159 /* Input24 in Resources */ = {isa = PBXBuildFile; fileRef = C04C22252891868800378159 /* Input24 */; };
+		C04C22292891868800378159 /* Puzzle25.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C22282891868800378159 /* Puzzle25.swift */; };
+		C04C222B2891868800378159 /* Input25 in Resources */ = {isa = PBXBuildFile; fileRef = C04C222A2891868800378159 /* Input25 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C04C21A62891868800378159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C04C219A2891868800378159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C04C21A42891868800378159;
+			remoteInfo = Input;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C04C21A12891868800378159 /* AOC2021 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOC2021; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04C21A52891868800378159 /* Input.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Input.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04C21A92891868800378159 /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		C04C21AB2891868800378159 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C04C21AD2891868800378159 /* InputFileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFileReader.swift; sourceTree = "<group>"; };
+		C04C21B02891868800378159 /* Puzzle01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle01.swift; sourceTree = "<group>"; };
+		C04C21B22891868800378159 /* Input01 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input01; sourceTree = "<group>"; };
+		C04C21B52891868800378159 /* Puzzle02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle02.swift; sourceTree = "<group>"; };
+		C04C21B72891868800378159 /* Input02 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input02; sourceTree = "<group>"; };
+		C04C21BA2891868800378159 /* Puzzle03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle03.swift; sourceTree = "<group>"; };
+		C04C21BC2891868800378159 /* Input03 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input03; sourceTree = "<group>"; };
+		C04C21BF2891868800378159 /* Puzzle04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle04.swift; sourceTree = "<group>"; };
+		C04C21C12891868800378159 /* Input04 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input04; sourceTree = "<group>"; };
+		C04C21C42891868800378159 /* Puzzle05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle05.swift; sourceTree = "<group>"; };
+		C04C21C62891868800378159 /* Input05 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input05; sourceTree = "<group>"; };
+		C04C21C92891868800378159 /* Puzzle06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle06.swift; sourceTree = "<group>"; };
+		C04C21CB2891868800378159 /* Input06 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input06; sourceTree = "<group>"; };
+		C04C21CE2891868800378159 /* Puzzle07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle07.swift; sourceTree = "<group>"; };
+		C04C21D02891868800378159 /* Input07 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input07; sourceTree = "<group>"; };
+		C04C21D32891868800378159 /* Puzzle08.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle08.swift; sourceTree = "<group>"; };
+		C04C21D52891868800378159 /* Input08 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input08; sourceTree = "<group>"; };
+		C04C21D82891868800378159 /* Puzzle09.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle09.swift; sourceTree = "<group>"; };
+		C04C21DA2891868800378159 /* Input09 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input09; sourceTree = "<group>"; };
+		C04C21DD2891868800378159 /* Puzzle10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle10.swift; sourceTree = "<group>"; };
+		C04C21DF2891868800378159 /* Input10 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input10; sourceTree = "<group>"; };
+		C04C21E22891868800378159 /* Puzzle11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle11.swift; sourceTree = "<group>"; };
+		C04C21E42891868800378159 /* Input11 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input11; sourceTree = "<group>"; };
+		C04C21E72891868800378159 /* Puzzle12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle12.swift; sourceTree = "<group>"; };
+		C04C21E92891868800378159 /* Input12 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input12; sourceTree = "<group>"; };
+		C04C21EC2891868800378159 /* Puzzle13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle13.swift; sourceTree = "<group>"; };
+		C04C21EE2891868800378159 /* Input13 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input13; sourceTree = "<group>"; };
+		C04C21F12891868800378159 /* Puzzle14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle14.swift; sourceTree = "<group>"; };
+		C04C21F32891868800378159 /* Input14 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input14; sourceTree = "<group>"; };
+		C04C21F62891868800378159 /* Puzzle15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle15.swift; sourceTree = "<group>"; };
+		C04C21F82891868800378159 /* Input15 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input15; sourceTree = "<group>"; };
+		C04C21FB2891868800378159 /* Puzzle16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle16.swift; sourceTree = "<group>"; };
+		C04C21FD2891868800378159 /* Input16 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input16; sourceTree = "<group>"; };
+		C04C22002891868800378159 /* Puzzle17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle17.swift; sourceTree = "<group>"; };
+		C04C22022891868800378159 /* Input17 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input17; sourceTree = "<group>"; };
+		C04C22052891868800378159 /* Puzzle18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle18.swift; sourceTree = "<group>"; };
+		C04C22072891868800378159 /* Input18 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input18; sourceTree = "<group>"; };
+		C04C220A2891868800378159 /* Puzzle19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle19.swift; sourceTree = "<group>"; };
+		C04C220C2891868800378159 /* Input19 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input19; sourceTree = "<group>"; };
+		C04C220F2891868800378159 /* Puzzle20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle20.swift; sourceTree = "<group>"; };
+		C04C22112891868800378159 /* Input20 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input20; sourceTree = "<group>"; };
+		C04C22142891868800378159 /* Puzzle21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle21.swift; sourceTree = "<group>"; };
+		C04C22162891868800378159 /* Input21 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input21; sourceTree = "<group>"; };
+		C04C22192891868800378159 /* Puzzle22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle22.swift; sourceTree = "<group>"; };
+		C04C221B2891868800378159 /* Input22 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input22; sourceTree = "<group>"; };
+		C04C221E2891868800378159 /* Puzzle23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle23.swift; sourceTree = "<group>"; };
+		C04C22202891868800378159 /* Input23 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input23; sourceTree = "<group>"; };
+		C04C22232891868800378159 /* Puzzle24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle24.swift; sourceTree = "<group>"; };
+		C04C22252891868800378159 /* Input24 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input24; sourceTree = "<group>"; };
+		C04C22282891868800378159 /* Puzzle25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle25.swift; sourceTree = "<group>"; };
+		C04C222A2891868800378159 /* Input25 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input25; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C04C219F2891868800378159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C04C21992891868800378159 = {
+			isa = PBXGroup;
+			children = (
+				C04C21A82891868800378159 /* AOC2021 */,
+				C04C21A22891868800378159 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C04C21A22891868800378159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21A12891868800378159 /* AOC2021 */,
+				C04C21A52891868800378159 /* Input.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C04C21A82891868800378159 /* AOC2021 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21A92891868800378159 /* Puzzle.swift */,
+				C04C21AB2891868800378159 /* main.swift */,
+				C04C21AD2891868800378159 /* InputFileReader.swift */,
+				C04C21AF2891868800378159 /* 01 */,
+				C04C21B42891868800378159 /* 02 */,
+				C04C21B92891868800378159 /* 03 */,
+				C04C21BE2891868800378159 /* 04 */,
+				C04C21C32891868800378159 /* 05 */,
+				C04C21C82891868800378159 /* 06 */,
+				C04C21CD2891868800378159 /* 07 */,
+				C04C21D22891868800378159 /* 08 */,
+				C04C21D72891868800378159 /* 09 */,
+				C04C21DC2891868800378159 /* 10 */,
+				C04C21E12891868800378159 /* 11 */,
+				C04C21E62891868800378159 /* 12 */,
+				C04C21EB2891868800378159 /* 13 */,
+				C04C21F02891868800378159 /* 14 */,
+				C04C21F52891868800378159 /* 15 */,
+				C04C21FA2891868800378159 /* 16 */,
+				C04C21FF2891868800378159 /* 17 */,
+				C04C22042891868800378159 /* 18 */,
+				C04C22092891868800378159 /* 19 */,
+				C04C220E2891868800378159 /* 20 */,
+				C04C22132891868800378159 /* 21 */,
+				C04C22182891868800378159 /* 22 */,
+				C04C221D2891868800378159 /* 23 */,
+				C04C22222891868800378159 /* 24 */,
+				C04C22272891868800378159 /* 25 */,
+			);
+			path = AOC2021;
+			sourceTree = "<group>";
+		};
+		C04C21AF2891868800378159 /* 01 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21B02891868800378159 /* Puzzle01.swift */,
+				C04C21B22891868800378159 /* Input01 */,
+			);
+			path = 01;
+			sourceTree = "<group>";
+		};
+		C04C21B42891868800378159 /* 02 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21B52891868800378159 /* Puzzle02.swift */,
+				C04C21B72891868800378159 /* Input02 */,
+			);
+			path = 02;
+			sourceTree = "<group>";
+		};
+		C04C21B92891868800378159 /* 03 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21BA2891868800378159 /* Puzzle03.swift */,
+				C04C21BC2891868800378159 /* Input03 */,
+			);
+			path = 03;
+			sourceTree = "<group>";
+		};
+		C04C21BE2891868800378159 /* 04 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21BF2891868800378159 /* Puzzle04.swift */,
+				C04C21C12891868800378159 /* Input04 */,
+			);
+			path = 04;
+			sourceTree = "<group>";
+		};
+		C04C21C32891868800378159 /* 05 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21C42891868800378159 /* Puzzle05.swift */,
+				C04C21C62891868800378159 /* Input05 */,
+			);
+			path = 05;
+			sourceTree = "<group>";
+		};
+		C04C21C82891868800378159 /* 06 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21C92891868800378159 /* Puzzle06.swift */,
+				C04C21CB2891868800378159 /* Input06 */,
+			);
+			path = 06;
+			sourceTree = "<group>";
+		};
+		C04C21CD2891868800378159 /* 07 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21CE2891868800378159 /* Puzzle07.swift */,
+				C04C21D02891868800378159 /* Input07 */,
+			);
+			path = 07;
+			sourceTree = "<group>";
+		};
+		C04C21D22891868800378159 /* 08 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21D32891868800378159 /* Puzzle08.swift */,
+				C04C21D52891868800378159 /* Input08 */,
+			);
+			path = 08;
+			sourceTree = "<group>";
+		};
+		C04C21D72891868800378159 /* 09 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21D82891868800378159 /* Puzzle09.swift */,
+				C04C21DA2891868800378159 /* Input09 */,
+			);
+			path = 09;
+			sourceTree = "<group>";
+		};
+		C04C21DC2891868800378159 /* 10 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21DD2891868800378159 /* Puzzle10.swift */,
+				C04C21DF2891868800378159 /* Input10 */,
+			);
+			path = 10;
+			sourceTree = "<group>";
+		};
+		C04C21E12891868800378159 /* 11 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21E22891868800378159 /* Puzzle11.swift */,
+				C04C21E42891868800378159 /* Input11 */,
+			);
+			path = 11;
+			sourceTree = "<group>";
+		};
+		C04C21E62891868800378159 /* 12 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21E72891868800378159 /* Puzzle12.swift */,
+				C04C21E92891868800378159 /* Input12 */,
+			);
+			path = 12;
+			sourceTree = "<group>";
+		};
+		C04C21EB2891868800378159 /* 13 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21EC2891868800378159 /* Puzzle13.swift */,
+				C04C21EE2891868800378159 /* Input13 */,
+			);
+			path = 13;
+			sourceTree = "<group>";
+		};
+		C04C21F02891868800378159 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21F12891868800378159 /* Puzzle14.swift */,
+				C04C21F32891868800378159 /* Input14 */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		C04C21F52891868800378159 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21F62891868800378159 /* Puzzle15.swift */,
+				C04C21F82891868800378159 /* Input15 */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		C04C21FA2891868800378159 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21FB2891868800378159 /* Puzzle16.swift */,
+				C04C21FD2891868800378159 /* Input16 */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		C04C21FF2891868800378159 /* 17 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C22002891868800378159 /* Puzzle17.swift */,
+				C04C22022891868800378159 /* Input17 */,
+			);
+			path = 17;
+			sourceTree = "<group>";
+		};
+		C04C22042891868800378159 /* 18 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C22052891868800378159 /* Puzzle18.swift */,
+				C04C22072891868800378159 /* Input18 */,
+			);
+			path = 18;
+			sourceTree = "<group>";
+		};
+		C04C22092891868800378159 /* 19 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C220A2891868800378159 /* Puzzle19.swift */,
+				C04C220C2891868800378159 /* Input19 */,
+			);
+			path = 19;
+			sourceTree = "<group>";
+		};
+		C04C220E2891868800378159 /* 20 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C220F2891868800378159 /* Puzzle20.swift */,
+				C04C22112891868800378159 /* Input20 */,
+			);
+			path = 20;
+			sourceTree = "<group>";
+		};
+		C04C22132891868800378159 /* 21 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C22142891868800378159 /* Puzzle21.swift */,
+				C04C22162891868800378159 /* Input21 */,
+			);
+			path = 21;
+			sourceTree = "<group>";
+		};
+		C04C22182891868800378159 /* 22 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C22192891868800378159 /* Puzzle22.swift */,
+				C04C221B2891868800378159 /* Input22 */,
+			);
+			path = 22;
+			sourceTree = "<group>";
+		};
+		C04C221D2891868800378159 /* 23 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C221E2891868800378159 /* Puzzle23.swift */,
+				C04C22202891868800378159 /* Input23 */,
+			);
+			path = 23;
+			sourceTree = "<group>";
+		};
+		C04C22222891868800378159 /* 24 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C22232891868800378159 /* Puzzle24.swift */,
+				C04C22252891868800378159 /* Input24 */,
+			);
+			path = 24;
+			sourceTree = "<group>";
+		};
+		C04C22272891868800378159 /* 25 */ = {
+			isa = PBXGroup;
+			children = (
+				C04C22282891868800378159 /* Puzzle25.swift */,
+				C04C222A2891868800378159 /* Input25 */,
+			);
+			path = 25;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C04C21A02891868800378159 /* AOC2021 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C04C22312891868800378159 /* Build configuration list for PBXNativeTarget "AOC2021" */;
+			buildPhases = (
+				C04C219E2891868800378159 /* Sources */,
+				C04C219F2891868800378159 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C04C21A72891868800378159 /* PBXTargetDependency */,
+			);
+			name = AOC2021;
+			productName = AOC2021;
+			productReference = C04C21A12891868800378159 /* AOC2021 */;
+			productType = "com.apple.product-type.tool";
+		};
+		C04C21A42891868800378159 /* Input */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C04C222E2891868800378159 /* Build configuration list for PBXNativeTarget "Input" */;
+			buildPhases = (
+				C04C21A32891868800378159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Input;
+			productName = Input;
+			productReference = C04C21A52891868800378159 /* Input.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C04C219A2891868800378159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C04C21A02891868800378159 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					C04C21A42891868800378159 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = C04C219D2891868800378159 /* Build configuration list for PBXProject "AOC2021" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C04C21992891868800378159;
+			productRefGroup = C04C21A22891868800378159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C04C21A02891868800378159 /* AOC2021 */,
+				C04C21A42891868800378159 /* Input */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C04C21A32891868800378159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04C22082891868800378159 /* Input18 in Resources */,
+				C04C22212891868800378159 /* Input23 in Resources */,
+				C04C21F92891868800378159 /* Input15 in Resources */,
+				C04C222B2891868800378159 /* Input25 in Resources */,
+				C04C21E02891868800378159 /* Input10 in Resources */,
+				C04C220D2891868800378159 /* Input19 in Resources */,
+				C04C21BD2891868800378159 /* Input03 in Resources */,
+				C04C21B32891868800378159 /* Input01 in Resources */,
+				C04C21C72891868800378159 /* Input05 in Resources */,
+				C04C21CC2891868800378159 /* Input06 in Resources */,
+				C04C21B82891868800378159 /* Input02 in Resources */,
+				C04C21EA2891868800378159 /* Input12 in Resources */,
+				C04C21EF2891868800378159 /* Input13 in Resources */,
+				C04C21C22891868800378159 /* Input04 in Resources */,
+				C04C22032891868800378159 /* Input17 in Resources */,
+				C04C22122891868800378159 /* Input20 in Resources */,
+				C04C21DB2891868800378159 /* Input09 in Resources */,
+				C04C221C2891868800378159 /* Input22 in Resources */,
+				C04C21E52891868800378159 /* Input11 in Resources */,
+				C04C21D12891868800378159 /* Input07 in Resources */,
+				C04C21F42891868800378159 /* Input14 in Resources */,
+				C04C22172891868800378159 /* Input21 in Resources */,
+				C04C22262891868800378159 /* Input24 in Resources */,
+				C04C21FE2891868800378159 /* Input16 in Resources */,
+				C04C21D62891868800378159 /* Input08 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C04C219E2891868800378159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04C21D92891868800378159 /* Puzzle09.swift in Sources */,
+				C04C221A2891868800378159 /* Puzzle22.swift in Sources */,
+				C04C220B2891868800378159 /* Puzzle19.swift in Sources */,
+				C04C21C52891868800378159 /* Puzzle05.swift in Sources */,
+				C04C21E82891868800378159 /* Puzzle12.swift in Sources */,
+				C04C21BB2891868800378159 /* Puzzle03.swift in Sources */,
+				C04C22292891868800378159 /* Puzzle25.swift in Sources */,
+				C04C21D42891868800378159 /* Puzzle08.swift in Sources */,
+				C04C21F72891868800378159 /* Puzzle15.swift in Sources */,
+				C04C21B12891868800378159 /* Puzzle01.swift in Sources */,
+				C04C22012891868800378159 /* Puzzle17.swift in Sources */,
+				C04C21CA2891868800378159 /* Puzzle06.swift in Sources */,
+				C04C21ED2891868800378159 /* Puzzle13.swift in Sources */,
+				C04C21FC2891868800378159 /* Puzzle16.swift in Sources */,
+				C04C22062891868800378159 /* Puzzle18.swift in Sources */,
+				C04C21C02891868800378159 /* Puzzle04.swift in Sources */,
+				C04C21AC2891868800378159 /* main.swift in Sources */,
+				C04C22242891868800378159 /* Puzzle24.swift in Sources */,
+				C04C21F22891868800378159 /* Puzzle14.swift in Sources */,
+				C04C21AE2891868800378159 /* InputFileReader.swift in Sources */,
+				C04C21B62891868800378159 /* Puzzle02.swift in Sources */,
+				C04C22102891868800378159 /* Puzzle20.swift in Sources */,
+				C04C221F2891868800378159 /* Puzzle23.swift in Sources */,
+				C04C21DE2891868800378159 /* Puzzle10.swift in Sources */,
+				C04C21E32891868800378159 /* Puzzle11.swift in Sources */,
+				C04C21CF2891868800378159 /* Puzzle07.swift in Sources */,
+				C04C22152891868800378159 /* Puzzle21.swift in Sources */,
+				C04C21AA2891868800378159 /* Puzzle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C04C21A72891868800378159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C04C21A42891868800378159 /* Input */;
+			targetProxy = C04C21A62891868800378159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C04C222C2891868800378159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C04C222D2891868800378159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C04C222F2891868800378159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LAH32MJT38;
+				PRODUCT_NAME = Input;
+			};
+			name = Debug;
+		};
+		C04C22302891868800378159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LAH32MJT38;
+				PRODUCT_NAME = Input;
+			};
+			name = Release;
+		};
+		C04C22322891868800378159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LAH32MJT38;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C04C22332891868800378159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LAH32MJT38;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C04C219D2891868800378159 /* Build configuration list for PBXProject "AOC2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04C222C2891868800378159 /* Debug */,
+				C04C222D2891868800378159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C04C222E2891868800378159 /* Build configuration list for PBXNativeTarget "Input" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04C222F2891868800378159 /* Debug */,
+				C04C22302891868800378159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C04C22312891868800378159 /* Build configuration list for PBXNativeTarget "AOC2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04C22322891868800378159 /* Debug */,
+				C04C22332891868800378159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C04C219A2891868800378159 /* Project object */;
+}
