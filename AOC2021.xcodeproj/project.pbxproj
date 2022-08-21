@@ -60,6 +60,7 @@
 		C04C22262891868800378159 /* Input24 in Resources */ = {isa = PBXBuildFile; fileRef = C04C22252891868800378159 /* Input24 */; };
 		C04C22292891868800378159 /* Puzzle25.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C22282891868800378159 /* Puzzle25.swift */; };
 		C04C222B2891868800378159 /* Input25 in Resources */ = {isa = PBXBuildFile; fileRef = C04C222A2891868800378159 /* Input25 */; };
+		C0C5F15D28B2455A00DEB353 /* Input03-test in Resources */ = {isa = PBXBuildFile; fileRef = C0C5F15C28B2455A00DEB353 /* Input03-test */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		C04C22252891868800378159 /* Input24 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input24; sourceTree = "<group>"; };
 		C04C22282891868800378159 /* Puzzle25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle25.swift; sourceTree = "<group>"; };
 		C04C222A2891868800378159 /* Input25 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input25; sourceTree = "<group>"; };
+		C0C5F15C28B2455A00DEB353 /* Input03-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input03-test"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 			children = (
 				C04C21BA2891868800378159 /* Puzzle03.swift */,
 				C04C21BC2891868800378159 /* Input03 */,
+				C0C5F15C28B2455A00DEB353 /* Input03-test */,
 			);
 			path = 03;
 			sourceTree = "<group>";
@@ -513,6 +516,7 @@
 				C04C22122891868800378159 /* Input20 in Resources */,
 				C04C21DB2891868800378159 /* Input09 in Resources */,
 				C04C221C2891868800378159 /* Input22 in Resources */,
+				C0C5F15D28B2455A00DEB353 /* Input03-test in Resources */,
 				C04C21E52891868800378159 /* Input11 in Resources */,
 				C04C21D12891868800378159 /* Input07 in Resources */,
 				C04C21F42891868800378159 /* Input14 in Resources */,
