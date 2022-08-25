@@ -60,6 +60,7 @@
 		C04C22262891868800378159 /* Input24 in Resources */ = {isa = PBXBuildFile; fileRef = C04C22252891868800378159 /* Input24 */; };
 		C04C22292891868800378159 /* Puzzle25.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C22282891868800378159 /* Puzzle25.swift */; };
 		C04C222B2891868800378159 /* Input25 in Resources */ = {isa = PBXBuildFile; fileRef = C04C222A2891868800378159 /* Input25 */; };
+		C0A99CC628B7CC00001A4C14 /* Input04-test in Resources */ = {isa = PBXBuildFile; fileRef = C0A99CC528B7CC00001A4C14 /* Input04-test */; };
 		C0C5F15D28B2455A00DEB353 /* Input03-test in Resources */ = {isa = PBXBuildFile; fileRef = C0C5F15C28B2455A00DEB353 /* Input03-test */; };
 /* End PBXBuildFile section */
 
@@ -129,6 +130,7 @@
 		C04C22252891868800378159 /* Input24 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input24; sourceTree = "<group>"; };
 		C04C22282891868800378159 /* Puzzle25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle25.swift; sourceTree = "<group>"; };
 		C04C222A2891868800378159 /* Input25 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input25; sourceTree = "<group>"; };
+		C0A99CC528B7CC00001A4C14 /* Input04-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input04-test"; sourceTree = "<group>"; };
 		C0C5F15C28B2455A00DEB353 /* Input03-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input03-test"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -227,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				C04C21BF2891868800378159 /* Puzzle04.swift */,
+				C0A99CC528B7CC00001A4C14 /* Input04-test */,
 				C04C21C12891868800378159 /* Input04 */,
 			);
 			path = 04;
@@ -502,6 +505,7 @@
 				C04C22212891868800378159 /* Input23 in Resources */,
 				C04C21F92891868800378159 /* Input15 in Resources */,
 				C04C222B2891868800378159 /* Input25 in Resources */,
+				C0A99CC628B7CC00001A4C14 /* Input04-test in Resources */,
 				C04C21E02891868800378159 /* Input10 in Resources */,
 				C04C220D2891868800378159 /* Input19 in Resources */,
 				C04C21BD2891868800378159 /* Input03 in Resources */,
