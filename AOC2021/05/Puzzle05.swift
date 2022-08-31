@@ -5,11 +5,6 @@
 //  Created by Jaydeep Joshi on 27/07/22.
 //
 
-fileprivate struct Point: Hashable, CustomStringConvertible {
-    let x, y: Int
-    var description: String { "(\(x), \(y))" }
-}
-
 fileprivate struct Line: Hashable, ExpressibleByStringLiteral, CustomStringConvertible {
     let start, end: Point
 

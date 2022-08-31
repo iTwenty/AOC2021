@@ -62,6 +62,8 @@
 		C04C222B2891868800378159 /* Input25 in Resources */ = {isa = PBXBuildFile; fileRef = C04C222A2891868800378159 /* Input25 */; };
 		C0A99CC628B7CC00001A4C14 /* Input04-test in Resources */ = {isa = PBXBuildFile; fileRef = C0A99CC528B7CC00001A4C14 /* Input04-test */; };
 		C0A99CC828B91CFA001A4C14 /* Input05-test in Resources */ = {isa = PBXBuildFile; fileRef = C0A99CC728B91CFA001A4C14 /* Input05-test */; };
+		C0A99CCA28BD1CF9001A4C14 /* Input09-test in Resources */ = {isa = PBXBuildFile; fileRef = C0A99CC928BD1CF9001A4C14 /* Input09-test */; };
+		C0A99CCD28BF89CB001A4C14 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A99CCC28BF89CB001A4C14 /* Point.swift */; };
 		C0C5F15D28B2455A00DEB353 /* Input03-test in Resources */ = {isa = PBXBuildFile; fileRef = C0C5F15C28B2455A00DEB353 /* Input03-test */; };
 /* End PBXBuildFile section */
 
@@ -133,6 +135,8 @@
 		C04C222A2891868800378159 /* Input25 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input25; sourceTree = "<group>"; };
 		C0A99CC528B7CC00001A4C14 /* Input04-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input04-test"; sourceTree = "<group>"; };
 		C0A99CC728B91CFA001A4C14 /* Input05-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input05-test"; sourceTree = "<group>"; };
+		C0A99CC928BD1CF9001A4C14 /* Input09-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input09-test"; sourceTree = "<group>"; };
+		C0A99CCC28BF89CB001A4C14 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		C0C5F15C28B2455A00DEB353 /* Input03-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input03-test"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,7 +173,7 @@
 			children = (
 				C04C21A92891868800378159 /* Puzzle.swift */,
 				C04C21AB2891868800378159 /* main.swift */,
-				C04C21AD2891868800378159 /* InputFileReader.swift */,
+				C0A99CCB28BF89B6001A4C14 /* Helpers */,
 				C04C21AF2891868800378159 /* 01 */,
 				C04C21B42891868800378159 /* 02 */,
 				C04C21B92891868800378159 /* 03 */,
@@ -279,6 +283,7 @@
 			children = (
 				C04C21D82891868800378159 /* Puzzle09.swift */,
 				C04C21DA2891868800378159 /* Input09 */,
+				C0A99CC928BD1CF9001A4C14 /* Input09-test */,
 			);
 			path = 09;
 			sourceTree = "<group>";
@@ -427,6 +432,15 @@
 			path = 25;
 			sourceTree = "<group>";
 		};
+		C0A99CCB28BF89B6001A4C14 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C04C21AD2891868800378159 /* InputFileReader.swift */,
+				C0A99CCC28BF89CB001A4C14 /* Point.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -509,6 +523,7 @@
 				C04C21F92891868800378159 /* Input15 in Resources */,
 				C04C222B2891868800378159 /* Input25 in Resources */,
 				C0A99CC628B7CC00001A4C14 /* Input04-test in Resources */,
+				C0A99CCA28BD1CF9001A4C14 /* Input09-test in Resources */,
 				C04C21E02891868800378159 /* Input10 in Resources */,
 				C0A99CC828B91CFA001A4C14 /* Input05-test in Resources */,
 				C04C220D2891868800378159 /* Input19 in Resources */,
@@ -552,6 +567,7 @@
 				C04C21D42891868800378159 /* Puzzle08.swift in Sources */,
 				C04C21F72891868800378159 /* Puzzle15.swift in Sources */,
 				C04C21B12891868800378159 /* Puzzle01.swift in Sources */,
+				C0A99CCD28BF89CB001A4C14 /* Point.swift in Sources */,
 				C04C22012891868800378159 /* Puzzle17.swift in Sources */,
 				C04C21CA2891868800378159 /* Puzzle06.swift in Sources */,
 				C04C21ED2891868800378159 /* Puzzle13.swift in Sources */,
