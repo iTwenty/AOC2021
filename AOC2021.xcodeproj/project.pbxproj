@@ -62,6 +62,7 @@
 		C04C222B2891868800378159 /* Input25 in Resources */ = {isa = PBXBuildFile; fileRef = C04C222A2891868800378159 /* Input25 */; };
 		C091844628C219CC002D99F2 /* Input11-test in Resources */ = {isa = PBXBuildFile; fileRef = C091844528C219CC002D99F2 /* Input11-test */; };
 		C091844828C8EE3B002D99F2 /* Input12-test in Resources */ = {isa = PBXBuildFile; fileRef = C091844728C8EE1B002D99F2 /* Input12-test */; };
+		C091844A28CE42BE002D99F2 /* Input13-test in Resources */ = {isa = PBXBuildFile; fileRef = C091844928CE42BE002D99F2 /* Input13-test */; };
 		C0A99CC628B7CC00001A4C14 /* Input04-test in Resources */ = {isa = PBXBuildFile; fileRef = C0A99CC528B7CC00001A4C14 /* Input04-test */; };
 		C0A99CC828B91CFA001A4C14 /* Input05-test in Resources */ = {isa = PBXBuildFile; fileRef = C0A99CC728B91CFA001A4C14 /* Input05-test */; };
 		C0A99CCA28BD1CF9001A4C14 /* Input09-test in Resources */ = {isa = PBXBuildFile; fileRef = C0A99CC928BD1CF9001A4C14 /* Input09-test */; };
@@ -138,6 +139,7 @@
 		C04C222A2891868800378159 /* Input25 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input25; sourceTree = "<group>"; };
 		C091844528C219CC002D99F2 /* Input11-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input11-test"; sourceTree = "<group>"; };
 		C091844728C8EE1B002D99F2 /* Input12-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input12-test"; sourceTree = "<group>"; };
+		C091844928CE42BE002D99F2 /* Input13-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input13-test"; sourceTree = "<group>"; };
 		C0A99CC528B7CC00001A4C14 /* Input04-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input04-test"; sourceTree = "<group>"; };
 		C0A99CC728B91CFA001A4C14 /* Input05-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input05-test"; sourceTree = "<group>"; };
 		C0A99CC928BD1CF9001A4C14 /* Input09-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input09-test"; sourceTree = "<group>"; };
@@ -329,6 +331,7 @@
 			children = (
 				C04C21EC2891868800378159 /* Puzzle13.swift */,
 				C04C21EE2891868800378159 /* Input13 */,
+				C091844928CE42BE002D99F2 /* Input13-test */,
 			);
 			path = 13;
 			sourceTree = "<group>";
@@ -558,6 +561,7 @@
 				C04C22172891868800378159 /* Input21 in Resources */,
 				C04C22262891868800378159 /* Input24 in Resources */,
 				C04C21FE2891868800378159 /* Input16 in Resources */,
+				C091844A28CE42BE002D99F2 /* Input13-test in Resources */,
 				C04C21D62891868800378159 /* Input08 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
