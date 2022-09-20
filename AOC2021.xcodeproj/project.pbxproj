@@ -65,6 +65,7 @@
 		C091844A28CE42BE002D99F2 /* Input13-test in Resources */ = {isa = PBXBuildFile; fileRef = C091844928CE42BE002D99F2 /* Input13-test */; };
 		C091844D28CF9A67002D99F2 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = C091844C28CF9A67002D99F2 /* Algorithms */; };
 		C091844F28CF9BB6002D99F2 /* Input14-test in Resources */ = {isa = PBXBuildFile; fileRef = C091844E28CF9BB6002D99F2 /* Input14-test */; };
+		C091845328D638AF002D99F2 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C091845228D638AF002D99F2 /* PriorityQueue.swift */; };
 		C0A99CC628B7CC00001A4C14 /* Input04-test in Resources */ = {isa = PBXBuildFile; fileRef = C0A99CC528B7CC00001A4C14 /* Input04-test */; };
 		C0A99CC828B91CFA001A4C14 /* Input05-test in Resources */ = {isa = PBXBuildFile; fileRef = C0A99CC728B91CFA001A4C14 /* Input05-test */; };
 		C0A99CCA28BD1CF9001A4C14 /* Input09-test in Resources */ = {isa = PBXBuildFile; fileRef = C0A99CC928BD1CF9001A4C14 /* Input09-test */; };
@@ -143,6 +144,7 @@
 		C091844728C8EE1B002D99F2 /* Input12-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input12-test"; sourceTree = "<group>"; };
 		C091844928CE42BE002D99F2 /* Input13-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input13-test"; sourceTree = "<group>"; };
 		C091844E28CF9BB6002D99F2 /* Input14-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input14-test"; sourceTree = "<group>"; };
+		C091845228D638AF002D99F2 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		C0A99CC528B7CC00001A4C14 /* Input04-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input04-test"; sourceTree = "<group>"; };
 		C0A99CC728B91CFA001A4C14 /* Input05-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input05-test"; sourceTree = "<group>"; };
 		C0A99CC928BD1CF9001A4C14 /* Input09-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input09-test"; sourceTree = "<group>"; };
@@ -454,6 +456,7 @@
 			children = (
 				C04C21AD2891868800378159 /* InputFileReader.swift */,
 				C0A99CCC28BF89CB001A4C14 /* Point.swift */,
+				C091845228D638AF002D99F2 /* PriorityQueue.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -602,6 +605,7 @@
 				C04C21FC2891868800378159 /* Puzzle16.swift in Sources */,
 				C04C22062891868800378159 /* Puzzle18.swift in Sources */,
 				C04C21C02891868800378159 /* Puzzle04.swift in Sources */,
+				C091845328D638AF002D99F2 /* PriorityQueue.swift in Sources */,
 				C04C21AC2891868800378159 /* main.swift in Sources */,
 				C04C22242891868800378159 /* Puzzle24.swift in Sources */,
 				C04C21F22891868800378159 /* Puzzle14.swift in Sources */,
