@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct PriorityQueue<Element: Comparable> {
+struct PriorityQueue<Element> {
     private var elements: [Element]
-    private var priorityFn: ((Element, Element) -> Bool)?
+    private var priorityFn: (Element, Element) -> Bool
 
-    init<S: Sequence>(elements: S, priorityFn: ((Element, Element) -> Bool)? = nil) where S.Element == Element {
+    init<S: Sequence>(elements: S, priorityFn: @escaping (Element, Element) -> Bool) where S.Element == Element {
         self.elements = []
         self.priorityFn = priorityFn
         for element in elements {
@@ -79,10 +79,17 @@ extension PriorityQueue {
     private func isIndex(_ firstIndex: Int, higherPriorityThanIndex secondIndex: Int) -> Bool {
         let first = elements[firstIndex]
         let second = elements[secondIndex]
-        if let fn = priorityFn {
-            return fn(first, second)
+        return priorityFn(first, second)
+    }
+}
+
+extension PriorityQueue where Element: Comparable {
+    init<S: Sequence>(elements: S) where S.Element == Element {
+        self.elements = []
+        self.priorityFn = (>)
+        for element in elements {
+            self.enqueue(element)
         }
-        return first > second
     }
 }
 

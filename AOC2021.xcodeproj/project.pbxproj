@@ -72,6 +72,7 @@
 		C0A99CCD28BF89CB001A4C14 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A99CCC28BF89CB001A4C14 /* Point.swift */; };
 		C0A99CCF28BFC015001A4C14 /* Input10-test in Resources */ = {isa = PBXBuildFile; fileRef = C0A99CCE28BFC015001A4C14 /* Input10-test */; };
 		C0C5F15D28B2455A00DEB353 /* Input03-test in Resources */ = {isa = PBXBuildFile; fileRef = C0C5F15C28B2455A00DEB353 /* Input03-test */; };
+		C0FBEBD828DE21D700BF5B35 /* Input15-test in Resources */ = {isa = PBXBuildFile; fileRef = C0FBEBD728DE21D700BF5B35 /* Input15-test */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +152,7 @@
 		C0A99CCC28BF89CB001A4C14 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		C0A99CCE28BFC015001A4C14 /* Input10-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input10-test"; sourceTree = "<group>"; };
 		C0C5F15C28B2455A00DEB353 /* Input03-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input03-test"; sourceTree = "<group>"; };
+		C0FBEBD728DE21D700BF5B35 /* Input15-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input15-test"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,6 +359,7 @@
 			children = (
 				C04C21F62891868800378159 /* Puzzle15.swift */,
 				C04C21F82891868800378159 /* Input15 */,
+				C0FBEBD728DE21D700BF5B35 /* Input15-test */,
 			);
 			path = 15;
 			sourceTree = "<group>";
@@ -555,6 +558,7 @@
 				C04C220D2891868800378159 /* Input19 in Resources */,
 				C04C21BD2891868800378159 /* Input03 in Resources */,
 				C04C21B32891868800378159 /* Input01 in Resources */,
+				C0FBEBD828DE21D700BF5B35 /* Input15-test in Resources */,
 				C04C21C72891868800378159 /* Input05 in Resources */,
 				C091844828C8EE3B002D99F2 /* Input12-test in Resources */,
 				C04C21CC2891868800378159 /* Input06 in Resources */,
