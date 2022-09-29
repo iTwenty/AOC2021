@@ -7,13 +7,17 @@
 
 import Foundation
 
-struct PriorityQueue<Element> {
-    private var elements: [Element]
-    private var priorityFn: (Element, Element) -> Bool
+enum PriorityQueueType {
+    case min, max
+}
 
-    init<S: Sequence>(elements: S, priorityFn: @escaping (Element, Element) -> Bool) where S.Element == Element {
+struct PriorityQueue<Element: Comparable> {
+    private var elements: [Element]
+    private var type: PriorityQueueType
+
+    init<S: Sequence>(elements: S, type: PriorityQueueType = .min) where S.Element == Element {
         self.elements = []
-        self.priorityFn = priorityFn
+        self.type = type
         for element in elements {
             self.enqueue(element)
         }
@@ -54,8 +58,7 @@ extension PriorityQueue {
     }
 
     private mutating func siftUp(elementAtIndex index: Int) {
-        let maybeParentIndex = parentIndex(of: index)
-        if let parentIndex = maybeParentIndex,
+        if let parentIndex = parentIndex(of: index),
             isIndex(index, higherPriorityThanIndex: parentIndex) {
             elements.swapAt(index, parentIndex)
             siftUp(elementAtIndex: parentIndex)
@@ -63,32 +66,31 @@ extension PriorityQueue {
     }
 
     private mutating func siftDown(elementAtIndex index: Int) {
-        let maybeLeftChildIndex = leftChildIndex(of: index)
-        let maybeRightChildIndex = rightChildIndex(of: index)
-        if let leftChildIndex = maybeLeftChildIndex,
-           isIndex(leftChildIndex, higherPriorityThanIndex: index) {
-            elements.swapAt(index, leftChildIndex)
-            siftDown(elementAtIndex: leftChildIndex)
-        } else if let rightChildIndex = maybeRightChildIndex,
-                  isIndex(rightChildIndex, higherPriorityThanIndex: index) {
-            elements.swapAt(index, rightChildIndex)
-            siftDown(elementAtIndex: rightChildIndex)
+        if let higherPriorityChildIndex = higherPriorityChildIndex(for: index),
+            isIndex(higherPriorityChildIndex, higherPriorityThanIndex: index) {
+            elements.swapAt(index, higherPriorityChildIndex)
+            siftDown(elementAtIndex: higherPriorityChildIndex)
+        }
+    }
+
+    private func higherPriorityChildIndex(for parentIndex: Int) -> Int? {
+        let maybeLeftChildIndex = leftChildIndex(of: parentIndex)
+        let maybeRightChildIndex = rightChildIndex(of: parentIndex)
+        if let leftChildIndex = maybeLeftChildIndex, let rightChildIndex = maybeRightChildIndex {
+            return isIndex(leftChildIndex, higherPriorityThanIndex: rightChildIndex) ? leftChildIndex : rightChildIndex
+        } else if maybeLeftChildIndex == nil, maybeRightChildIndex == nil {
+            return nil
+        } else {
+            return maybeLeftChildIndex == nil ? maybeRightChildIndex! : maybeLeftChildIndex!
         }
     }
 
     private func isIndex(_ firstIndex: Int, higherPriorityThanIndex secondIndex: Int) -> Bool {
         let first = elements[firstIndex]
         let second = elements[secondIndex]
-        return priorityFn(first, second)
-    }
-}
-
-extension PriorityQueue where Element: Comparable {
-    init<S: Sequence>(elements: S) where S.Element == Element {
-        self.elements = []
-        self.priorityFn = (>)
-        for element in elements {
-            self.enqueue(element)
+        switch type {
+        case .min: return first < second
+        case .max: return first > second
         }
     }
 }

@@ -87,32 +87,16 @@ struct Puzzle15: Puzzle {
     }
 
     func part1() {
-        print(shortestPathDijkstra(Map(self.risks, big: false)))
+        let map = Map(self.risks, big: false)
+        print(shortestPath(map: map, nodes: shortestPathDijkstra(map)))
     }
 
     func part2() {
-        print(shortestPathDijkstra(Map(self.risks, big: true)))
+        let map = Map(self.risks, big: false)
+        print(shortestPath(map: map, nodes: shortestPathAStar(map)))
     }
 
-    private func shortestPathDijkstra(_ map: Map) -> ([Point], Int) {
-        let shorestPathTree = shortestPathTreeDijkstra(map)
-        guard shorestPathTree.keys.contains(map.end) else {
-            return ([], Int.max)
-        }
-        var path = [Point]()
-        var currentPoint = map.end
-        while currentPoint != map.start {
-            guard let currentNode = shorestPathTree[currentPoint], let prevPoint = currentNode.prev else {
-                fatalError("No node for point \(currentPoint)")
-            }
-            path.append(currentPoint)
-            currentPoint = prevPoint
-        }
-        path.append(map.start)
-        return (path.reversed(), shorestPathTree[map.end]!.cost)
-    }
-
-    private func shortestPathTreeDijkstra(_ map: Map) -> [Point: Node] {
+    private func shortestPathDijkstra(_ map: Map) -> [Point: Node] {
         var visitedNodes = [Point: Node]()
         var unvisitedNodes = map.unvisited()
         while let (point, node) = unvisitedNodes.min(by: { $0.value.cost < $1.value.cost }) {
@@ -131,5 +115,51 @@ struct Puzzle15: Puzzle {
             }
         }
         return visitedNodes
+    }
+
+    private func shortestPathAStar(_ map: Map) -> [Point: Node] {
+
+        func estimatedCost(from: Point, to: Point) -> Int {
+            abs(from.x - to.x) + abs(from.y - to.x)
+        }
+
+        var visitedNodes = [Point: Node]()
+        var unvisitedNodes = map.unvisited()
+        while let (point, node) = unvisitedNodes.min(by: { $0.value.cost < $1.value.cost }) {
+            unvisitedNodes[point] = nil
+            let n = node
+            n.cost -= estimatedCost(from: point, to: map.end)
+            visitedNodes[point] = n
+            let unvisitedNeighbourPoints = map.neighbourPoints(point).filter { !visitedNodes.keys.contains($0) }
+            for unvisitedNeighbourPoint in unvisitedNeighbourPoints {
+                guard let unvisitedNeighbourNode = unvisitedNodes[unvisitedNeighbourPoint] else {
+                    fatalError("No node for point \(unvisitedNeighbourPoint)")
+                }
+                let potentialNewCost = node.cost + map.cost(unvisitedNeighbourPoint)
+                if potentialNewCost < unvisitedNeighbourNode.cost {
+                    let estimatedCost = estimatedCost(from: unvisitedNeighbourPoint, to: map.end)
+                    unvisitedNeighbourNode.cost = potentialNewCost + estimatedCost
+                    unvisitedNeighbourNode.prev = point
+                }
+            }
+        }
+        return visitedNodes
+    }
+
+    private func shortestPath(map: Map, nodes: [Point: Node]) -> ([Point], Int) {
+        guard nodes.keys.contains(map.end) else {
+            return ([], Int.max)
+        }
+        var path = [Point]()
+        var currentPoint = map.end
+        while currentPoint != map.start {
+            guard let currentNode = nodes[currentPoint], let prevPoint = currentNode.prev else {
+                fatalError("No node for point \(currentPoint)")
+            }
+            path.append(currentPoint)
+            currentPoint = prevPoint
+        }
+        path.append(map.start)
+        return (path.reversed(), nodes[map.end]!.cost)
     }
 }
