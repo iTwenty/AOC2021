@@ -6,14 +6,24 @@
 //
 
 // Stores algorithm specific info like current min cost and previous point
-// via which this point has been reached. Intended to be used as value in
-// [Point: Node] dict during Dijkstra and A* execution.
-fileprivate class Node: CustomStringConvertible {
-    var cost: Int
+// via which the point has been reached. Intended to be used as value in
+// [Point: Node] dict during Dijkstra's shortest path algorithm.
+fileprivate class Node: CustomStringConvertible, Comparable {
+    let point: Point
     var prev: Point?
+    var cost: Int
 
-    init(cost: Int = Int.max) {
+    init(point: Point, cost: Int = Int.max) {
+        self.point = point
         self.cost = cost
+    }
+
+    static func == (lhs: Node, rhs: Node) -> Bool {
+        lhs.cost == rhs.cost
+    }
+
+    static func < (lhs: Node, rhs: Node) -> Bool {
+        lhs.cost < rhs.cost
     }
 
     var description: String { "Cost : \(cost), Prev: \(prev?.description ?? "nil")" }
@@ -51,18 +61,6 @@ fileprivate class Map {
         return neighourPoints
     }
 
-    func unvisited() -> [Point: Node] {
-        var unvisited = [Point: Node]()
-        for y in yRange {
-            for x in xRange {
-                let p = Point(x: x, y: y)
-                let node = Node(cost: (p == start ? 0 : Int.max))
-                unvisited[p] = node
-            }
-        }
-        return unvisited
-    }
-
     func cost(_ point: Point) -> Int {
         guard big else {
             return risks[point.x][point.y]
@@ -92,54 +90,31 @@ struct Puzzle15: Puzzle {
     }
 
     func part2() {
-        let map = Map(self.risks, big: false)
-        print(shortestPath(map: map, nodes: shortestPathAStar(map)))
+        let map = Map(self.risks, big: true)
+        print(shortestPath(map: map, nodes: shortestPathDijkstra(map)))
     }
 
     private func shortestPathDijkstra(_ map: Map) -> [Point: Node] {
         var visitedNodes = [Point: Node]()
-        var unvisitedNodes = map.unvisited()
-        while let (point, node) = unvisitedNodes.min(by: { $0.value.cost < $1.value.cost }) {
-            unvisitedNodes[point] = nil
-            visitedNodes[point] = node
-            let unvisitedNeighbourPoints = map.neighbourPoints(point).filter { !visitedNodes.keys.contains($0) }
+        var unvisitedNodes = [Point: Node]()
+        var frontier = PriorityQueue<Node>(elements: [Node(point: map.start, cost: 0)])
+        while let currentNode = frontier.dequeue() {
+            let currentPoint = currentNode.point
+            visitedNodes[currentPoint] = currentNode
+            let unvisitedNeighbourPoints = map.neighbourPoints(currentPoint).filter { !visitedNodes.keys.contains($0) }
             for unvisitedNeighbourPoint in unvisitedNeighbourPoints {
-                guard let unvisitedNeighbourNode = unvisitedNodes[unvisitedNeighbourPoint] else {
-                    fatalError("No node for point \(unvisitedNeighbourPoint)")
-                }
-                let potentialNewCost = node.cost + map.cost(unvisitedNeighbourPoint)
-                if potentialNewCost < unvisitedNeighbourNode.cost {
-                    unvisitedNeighbourNode.cost = potentialNewCost
-                    unvisitedNeighbourNode.prev = point
-                }
-            }
-        }
-        return visitedNodes
-    }
-
-    private func shortestPathAStar(_ map: Map) -> [Point: Node] {
-
-        func estimatedCost(from: Point, to: Point) -> Int {
-            abs(from.x - to.x) + abs(from.y - to.x)
-        }
-
-        var visitedNodes = [Point: Node]()
-        var unvisitedNodes = map.unvisited()
-        while let (point, node) = unvisitedNodes.min(by: { $0.value.cost < $1.value.cost }) {
-            unvisitedNodes[point] = nil
-            let n = node
-            n.cost -= estimatedCost(from: point, to: map.end)
-            visitedNodes[point] = n
-            let unvisitedNeighbourPoints = map.neighbourPoints(point).filter { !visitedNodes.keys.contains($0) }
-            for unvisitedNeighbourPoint in unvisitedNeighbourPoints {
-                guard let unvisitedNeighbourNode = unvisitedNodes[unvisitedNeighbourPoint] else {
-                    fatalError("No node for point \(unvisitedNeighbourPoint)")
-                }
-                let potentialNewCost = node.cost + map.cost(unvisitedNeighbourPoint)
-                if potentialNewCost < unvisitedNeighbourNode.cost {
-                    let estimatedCost = estimatedCost(from: unvisitedNeighbourPoint, to: map.end)
-                    unvisitedNeighbourNode.cost = potentialNewCost + estimatedCost
-                    unvisitedNeighbourNode.prev = point
+                let costViaCurrentNode = currentNode.cost + map.cost(unvisitedNeighbourPoint)
+                if let unvisitedNeighbourNode = unvisitedNodes[unvisitedNeighbourPoint] {
+                    if costViaCurrentNode < unvisitedNeighbourNode.cost {
+                        unvisitedNeighbourNode.cost = costViaCurrentNode
+                        unvisitedNeighbourNode.prev = currentNode.point
+                        frontier.enqueue(unvisitedNeighbourNode)
+                    }
+                } else {
+                    let neighbourNode = Node(point: unvisitedNeighbourPoint, cost: costViaCurrentNode)
+                    neighbourNode.prev = currentNode.point
+                    unvisitedNodes[unvisitedNeighbourPoint] = neighbourNode
+                    frontier.enqueue(neighbourNode)
                 }
             }
         }
