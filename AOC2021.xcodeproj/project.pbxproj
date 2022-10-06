@@ -73,6 +73,7 @@
 		C0A99CCF28BFC015001A4C14 /* Input10-test in Resources */ = {isa = PBXBuildFile; fileRef = C0A99CCE28BFC015001A4C14 /* Input10-test */; };
 		C0C5F15D28B2455A00DEB353 /* Input03-test in Resources */ = {isa = PBXBuildFile; fileRef = C0C5F15C28B2455A00DEB353 /* Input03-test */; };
 		C0FBEBD828DE21D700BF5B35 /* Input15-test in Resources */ = {isa = PBXBuildFile; fileRef = C0FBEBD728DE21D700BF5B35 /* Input15-test */; };
+		C0FBEBDA28EF212300BF5B35 /* Input16-test in Resources */ = {isa = PBXBuildFile; fileRef = C0FBEBD928EF212300BF5B35 /* Input16-test */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +154,7 @@
 		C0A99CCE28BFC015001A4C14 /* Input10-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input10-test"; sourceTree = "<group>"; };
 		C0C5F15C28B2455A00DEB353 /* Input03-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input03-test"; sourceTree = "<group>"; };
 		C0FBEBD728DE21D700BF5B35 /* Input15-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input15-test"; sourceTree = "<group>"; };
+		C0FBEBD928EF212300BF5B35 /* Input16-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input16-test"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,6 +371,7 @@
 			children = (
 				C04C21FB2891868800378159 /* Puzzle16.swift */,
 				C04C21FD2891868800378159 /* Input16 */,
+				C0FBEBD928EF212300BF5B35 /* Input16-test */,
 			);
 			path = 16;
 			sourceTree = "<group>";
@@ -551,6 +554,7 @@
 				C04C22212891868800378159 /* Input23 in Resources */,
 				C04C21F92891868800378159 /* Input15 in Resources */,
 				C04C222B2891868800378159 /* Input25 in Resources */,
+				C0FBEBDA28EF212300BF5B35 /* Input16-test in Resources */,
 				C0A99CC628B7CC00001A4C14 /* Input04-test in Resources */,
 				C0A99CCA28BD1CF9001A4C14 /* Input09-test in Resources */,
 				C04C21E02891868800378159 /* Input10 in Resources */,
