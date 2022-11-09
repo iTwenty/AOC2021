@@ -74,6 +74,7 @@
 		C0C5F15D28B2455A00DEB353 /* Input03-test in Resources */ = {isa = PBXBuildFile; fileRef = C0C5F15C28B2455A00DEB353 /* Input03-test */; };
 		C0FBEBD828DE21D700BF5B35 /* Input15-test in Resources */ = {isa = PBXBuildFile; fileRef = C0FBEBD728DE21D700BF5B35 /* Input15-test */; };
 		C0FBEBDA28EF212300BF5B35 /* Input16-test in Resources */ = {isa = PBXBuildFile; fileRef = C0FBEBD928EF212300BF5B35 /* Input16-test */; };
+		C0FBEBDE28FC0B8B00BF5B35 /* Input18-test in Resources */ = {isa = PBXBuildFile; fileRef = C0FBEBDD28FC0B8B00BF5B35 /* Input18-test */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,6 +156,7 @@
 		C0C5F15C28B2455A00DEB353 /* Input03-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input03-test"; sourceTree = "<group>"; };
 		C0FBEBD728DE21D700BF5B35 /* Input15-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input15-test"; sourceTree = "<group>"; };
 		C0FBEBD928EF212300BF5B35 /* Input16-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input16-test"; sourceTree = "<group>"; };
+		C0FBEBDD28FC0B8B00BF5B35 /* Input18-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input18-test"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -390,6 +392,7 @@
 			children = (
 				C04C22052891868800378159 /* Puzzle18.swift */,
 				C04C22072891868800378159 /* Input18 */,
+				C0FBEBDD28FC0B8B00BF5B35 /* Input18-test */,
 			);
 			path = 18;
 			sourceTree = "<group>";
@@ -577,6 +580,7 @@
 				C091844628C219CC002D99F2 /* Input11-test in Resources */,
 				C04C221C2891868800378159 /* Input22 in Resources */,
 				C0C5F15D28B2455A00DEB353 /* Input03-test in Resources */,
+				C0FBEBDE28FC0B8B00BF5B35 /* Input18-test in Resources */,
 				C04C21E52891868800378159 /* Input11 in Resources */,
 				C04C21D12891868800378159 /* Input07 in Resources */,
 				C04C21F42891868800378159 /* Input14 in Resources */,
@@ -752,6 +756,7 @@
 		C04C222F2891868800378159 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LAH32MJT38;
 				PRODUCT_NAME = Input;
@@ -761,6 +766,7 @@
 		C04C22302891868800378159 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LAH32MJT38;
 				PRODUCT_NAME = Input;
