@@ -7,6 +7,6 @@
 
 import Foundation
 
-let puzzle = Puzzle18()
+let puzzle = Puzzle19()
 puzzle.part1()
 puzzle.part2()
