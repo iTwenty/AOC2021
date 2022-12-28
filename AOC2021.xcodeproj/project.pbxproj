@@ -60,6 +60,7 @@
 		C04C22262891868800378159 /* Input24 in Resources */ = {isa = PBXBuildFile; fileRef = C04C22252891868800378159 /* Input24 */; };
 		C04C22292891868800378159 /* Puzzle25.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C22282891868800378159 /* Puzzle25.swift */; };
 		C04C222B2891868800378159 /* Input25 in Resources */ = {isa = PBXBuildFile; fileRef = C04C222A2891868800378159 /* Input25 */; };
+		C08EA6B9295C3A4A003BFF69 /* Input20-test in Resources */ = {isa = PBXBuildFile; fileRef = C08EA6B8295C3A4A003BFF69 /* Input20-test */; };
 		C091844628C219CC002D99F2 /* Input11-test in Resources */ = {isa = PBXBuildFile; fileRef = C091844528C219CC002D99F2 /* Input11-test */; };
 		C091844828C8EE3B002D99F2 /* Input12-test in Resources */ = {isa = PBXBuildFile; fileRef = C091844728C8EE1B002D99F2 /* Input12-test */; };
 		C091844A28CE42BE002D99F2 /* Input13-test in Resources */ = {isa = PBXBuildFile; fileRef = C091844928CE42BE002D99F2 /* Input13-test */; };
@@ -143,6 +144,7 @@
 		C04C22252891868800378159 /* Input24 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input24; sourceTree = "<group>"; };
 		C04C22282891868800378159 /* Puzzle25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle25.swift; sourceTree = "<group>"; };
 		C04C222A2891868800378159 /* Input25 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input25; sourceTree = "<group>"; };
+		C08EA6B8295C3A4A003BFF69 /* Input20-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input20-test"; sourceTree = "<group>"; };
 		C091844528C219CC002D99F2 /* Input11-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input11-test"; sourceTree = "<group>"; };
 		C091844728C8EE1B002D99F2 /* Input12-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input12-test"; sourceTree = "<group>"; };
 		C091844928CE42BE002D99F2 /* Input13-test */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Input13-test"; sourceTree = "<group>"; };
@@ -411,6 +413,7 @@
 			children = (
 				C04C220F2891868800378159 /* Puzzle20.swift */,
 				C04C22112891868800378159 /* Input20 */,
+				C08EA6B8295C3A4A003BFF69 /* Input20-test */,
 			);
 			path = 20;
 			sourceTree = "<group>";
@@ -554,6 +557,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C04C22082891868800378159 /* Input18 in Resources */,
+				C08EA6B9295C3A4A003BFF69 /* Input20-test in Resources */,
 				C04C22212891868800378159 /* Input23 in Resources */,
 				C04C21F92891868800378159 /* Input15 in Resources */,
 				C04C222B2891868800378159 /* Input25 in Resources */,
