@@ -51,7 +51,6 @@
 		C04C22102891868800378159 /* Puzzle20.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C220F2891868800378159 /* Puzzle20.swift */; };
 		C04C22122891868800378159 /* Input20 in Resources */ = {isa = PBXBuildFile; fileRef = C04C22112891868800378159 /* Input20 */; };
 		C04C22152891868800378159 /* Puzzle21.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C22142891868800378159 /* Puzzle21.swift */; };
-		C04C22172891868800378159 /* Input21 in Resources */ = {isa = PBXBuildFile; fileRef = C04C22162891868800378159 /* Input21 */; };
 		C04C221A2891868800378159 /* Puzzle22.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C22192891868800378159 /* Puzzle22.swift */; };
 		C04C221C2891868800378159 /* Input22 in Resources */ = {isa = PBXBuildFile; fileRef = C04C221B2891868800378159 /* Input22 */; };
 		C04C221F2891868800378159 /* Puzzle23.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C221E2891868800378159 /* Puzzle23.swift */; };
@@ -135,7 +134,6 @@
 		C04C220F2891868800378159 /* Puzzle20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle20.swift; sourceTree = "<group>"; };
 		C04C22112891868800378159 /* Input20 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input20; sourceTree = "<group>"; };
 		C04C22142891868800378159 /* Puzzle21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle21.swift; sourceTree = "<group>"; };
-		C04C22162891868800378159 /* Input21 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input21; sourceTree = "<group>"; };
 		C04C22192891868800378159 /* Puzzle22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle22.swift; sourceTree = "<group>"; };
 		C04C221B2891868800378159 /* Input22 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Input22; sourceTree = "<group>"; };
 		C04C221E2891868800378159 /* Puzzle23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle23.swift; sourceTree = "<group>"; };
@@ -422,7 +420,6 @@
 			isa = PBXGroup;
 			children = (
 				C04C22142891868800378159 /* Puzzle21.swift */,
-				C04C22162891868800378159 /* Input21 */,
 			);
 			path = 21;
 			sourceTree = "<group>";
@@ -589,7 +586,6 @@
 				C04C21D12891868800378159 /* Input07 in Resources */,
 				C04C21F42891868800378159 /* Input14 in Resources */,
 				C091844F28CF9BB6002D99F2 /* Input14-test in Resources */,
-				C04C22172891868800378159 /* Input21 in Resources */,
 				C04C22262891868800378159 /* Input24 in Resources */,
 				C04C21FE2891868800378159 /* Input16 in Resources */,
 				C091844A28CE42BE002D99F2 /* Input13-test in Resources */,
