@@ -8,11 +8,6 @@
 // p is positive, n is negative.
 fileprivate enum Orientation { case px, py, pz, nx, ny, nz }
 
-fileprivate struct Point3D: Hashable, CustomStringConvertible {
-    let x, y, z: Int
-    var description: String { "\(x), \(y), \(z)" }
-}
-
 struct Puzzle19: Puzzle {
     private let scanner: [[Point3D]]
 
